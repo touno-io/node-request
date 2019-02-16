@@ -12,6 +12,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    indent: 2,
     'mocha/no-exclusive-tests': 'error',
     strict: 0
   },
