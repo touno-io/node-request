@@ -1,38 +1,44 @@
 {
-  "name": "request-ssl",
-  "version": "0.0.14",
+  "name": "@touno-io/request",
+  "version": "1.0.0",
   "description": "Pinned SSL version of the Request library",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "eslint": "eslint --ext .js --ignore-path .eslintignore .",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jhaynie/request-ssl.git"
+    "url": "git+ssh://git@github.com/touno-io/node-request.git"
   },
   "keywords": [
     "request",
     "ssl",
     "https"
   ],
-  "author": "Jeff Haynie",
-  "license": "Apache2",
+  "author": "Mr.Kananek T.",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jhaynie/request-ssl/issues"
+    "url": "https://github.com/touno-io/node-request/issues"
   },
-  "homepage": "https://github.com/jhaynie/request-ssl",
+  "homepage": "https://github.com/touno-io/node-request",
   "dependencies": {
-    "debug": "^2.1.1",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.11",
     "request": "^2.51.0"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-kahvesi": "^0.1.0",
-    "grunt-mocha-test": "^0.12.6",
-    "mocha": "^2.1.0",
-    "should": "^4.5.1",
-    "wrench": "^1.5.8"
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-html": "^4.0.6",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }

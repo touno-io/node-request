@@ -1,5 +1,5 @@
 test
-Gruntfile
+.eslintignore
 .gitignore
-.jshintrc
+.eslintrc.js
 node_modules
